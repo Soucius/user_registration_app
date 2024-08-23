@@ -10,7 +10,6 @@
     include "partials/nav.php";
 ?>
     <div class="container mt-5">
-        <?= "make login page"; ?>
         <div class="card mx-auto">
             <div class="card-header text-center bg-primary text-white">
                 <h2 class="card-title">Users</h2>

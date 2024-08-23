@@ -32,10 +32,10 @@
                             echo "<div class='container bg-success text-center text-white mb-3 py-3'>User created succesfully</div>";
                             header("refresh:1, url=index.php");
                         } else {
-                            echo "<div class='ontainer bg-danger text-center text-white mb-3 py-3'>Failed</div>";
+                            echo "<div class='container bg-danger text-center text-white mb-3 py-3'>Failed</div>";
                         }
                     } else {
-                        echo "<div class='ontainer bg-danger text-center text-white mb-3 py-3'>Fill the all inputs please!</div>";
+                        echo "<div class='container bg-danger text-center text-white mb-3 py-3'>Fill the all inputs please!</div>";
                     }
                 }
             ?>
@@ -61,7 +61,7 @@
         </div>
 
         <div class="card-footer">
-            <a href="login.php">Have an account?</a>
+            <a href="login.php">Have an account? Login here.</a>
         </div>
     </div>
 </div>
